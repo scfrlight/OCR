@@ -1,0 +1,7 @@
+{
+  "name": "Gemini PDF OCR",
+  "description": "A powerful optical character recognition tool that uses Google's Gemini 2.5 Flash model to instantly extract text from scanned PDF documents with high accuracy.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
