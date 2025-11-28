@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { 
   Upload, 
@@ -15,8 +16,13 @@ import {
   Download,
   Mic,
   Ear,
-  Settings, // Added
-  ChevronDown // Added
+  Settings,
+  ChevronDown,
+  Image as ImageIcon,
+  FileType2,
+  Camera,
+  Youtube,
+  ArrowLeft // Added
 } from 'lucide-react';
 
 export { 
@@ -35,6 +41,11 @@ export {
   Download,
   Mic, 
   Ear,
-  Settings, // Export
-  ChevronDown // Export
+  Settings,
+  ChevronDown,
+  ImageIcon,
+  FileType2,
+  Camera,
+  Youtube,
+  ArrowLeft
 };

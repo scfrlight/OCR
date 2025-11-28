@@ -16,3 +16,5 @@ export interface FileData {
   previewUrl: string;
   base64: string;
 }
+
+export type InputTab = 'files' | 'mic' | 'youtube' | 'text'; // Added 'text'

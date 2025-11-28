@@ -1,7 +1,8 @@
 {
-  "name": "Gemini PDF OCR",
+  "name": "VD super OCR PDF",
   "description": "A powerful optical character recognition tool that uses Google's Gemini 2.5 Flash model to instantly extract text from scanned PDF documents with high accuracy.",
   "requestFramePermissions": [
-    "microphone"
+    "microphone",
+    "camera"
   ]
 }

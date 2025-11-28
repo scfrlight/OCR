@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gemini PDF OCR</title>
+    <title>VD super OCR PDF</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -19,6 +19,7 @@
         }
       }
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
     <style>
       /* Custom Scrollbar for the text area */
       .custom-scrollbar::-webkit-scrollbar {
@@ -39,6 +40,16 @@
       body {
         background-color: #F8FAFC;
         color: #1E293B;
+      }
+      /* Prose styles for docx preview */
+      .prose-preview table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 1em 0;
+      }
+      .prose-preview th, .prose-preview td {
+        border: 1px solid #cbd5e1;
+        padding: 0.5em;
       }
     </style>
   <script type="importmap">
